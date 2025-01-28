@@ -167,7 +167,7 @@ if st.button("Predict"):
     if prediction == 1:
         st.success("The respondent is likely to have a bank account.")
     else:
-        st.warn("The respondent is unlikely to have a bank account.")
+        st.warning("The respondent is unlikely to have a bank account.")
    
 
 # Add a footer with additional information        
